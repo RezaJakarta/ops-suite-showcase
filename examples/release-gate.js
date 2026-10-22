@@ -39,7 +39,10 @@ for (const file of walk(ROOT)) {
   let m;
   while ((m = fnRe.exec(src))) {
     const bodyStart = m.index + m[0].length;
-    const body = src.slice(bodyStart, bodyStart + 400);
+    // Isi fungsi = sampai "function" berikutnya (atau 400 karakter), supaya pengecekan fungsi lain tidak ikut terhitung
+    const nextFn = src.indexOf("function", bodyStart);
+    const end = Math.min(bodyStart + 400, nextFn === -1 ? src.length : nextFn);
+    const body = src.slice(bodyStart, end);
     if (!/requireOwner_?\(|requireAdmin_?\(|checkAccess_?\(/.test(body)) {
       problems.push(`[akses] ${rel}: fungsi ${m[1]} belum memanggil pengecekan akses`);
     }
