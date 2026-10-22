@@ -43,3 +43,7 @@ Dibangun dengan bantuan AI; perancangan sistem, pemilihan fitur, dan pengujian d
 ---
 
 Dibuat oleh **Reza Ananda Putra** · [GitHub](https://github.com/RezaJakarta)
+
+## Lisensi
+
+MIT — lihat [LICENSE](LICENSE). Contoh kode boleh dipakai ulang dengan mencantumkan sumbernya.
