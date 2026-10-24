@@ -133,7 +133,6 @@ Mulai dengan diskusi singkat tanpa kewajiban. Buka [Issue](https://github.com/Re
 
 Dibuat oleh **Reza Ananda Putra** · [@RezaJakarta](https://github.com/RezaJakarta)
 
-Dibangun dengan bantuan AI; perancangan sistem, pemilihan fitur, dan pengujian dilakukan oleh pembuatnya.
 Seluruh nama, angka, dan tangkapan layar di repositori ini adalah contoh, bukan data nyata siapa pun.
 
 ## Lisensi
