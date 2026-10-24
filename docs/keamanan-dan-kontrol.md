@@ -40,4 +40,5 @@ sendiri bahwa tampilannya tertutup. Bila tidak pasti, asisten diperintahkan meng
 
 - Data bisnis disimpan di akun Google dan laptop pemilik.
 - Kunci API dan sidik suara disimpan terpisah dari kode dan tidak masuk repositori.
-- Asisten suara memakai layanan Gemini milik Google untuk memahami dan menjawab; data percakapan mengikuti kebijakan Google.
+- Pada contoh ini, asisten suara memakai layanan Gemini milik Google untuk memahami dan menjawab; data percakapan mengikuti kebijakan Google.
+  Pada proyek pelanggan, layanan AI bisa dipilih sendiri, dan kebijakan penyedia yang dipilih itulah yang berlaku.

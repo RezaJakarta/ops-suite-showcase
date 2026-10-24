@@ -9,7 +9,7 @@ Tidak ada angka hasil atau testimoni di sini: hanya status.
 | Karyawan AI: peran, tugas rutin, SOP, KPI | Berjalan (draf standar) | Standar ditulis sebagai draf menunggu persetujuan pemilik. Hasil KPI baru tampil bila terukur; selain itu "belum diukur". |
 | Karyawan AI yang mengerjakan tugas otomatis | Sebagian | Beberapa peran berjalan terjadwal (laporan berkala); sisanya masih rencana dan ditampilkan sebagai kursi kosong, tidak berpura-pura bekerja. |
 | Izin tiga tingkat (hijau, kuning, merah) | Berjalan | Alat tak dikenal dianggap merah. Pemakaian alat tercatat. |
-| Asisten suara natural (bahasa Indonesia) | Berjalan | Bisa disela dan memakai alat. Bergantung layanan Gemini. |
+| Asisten suara natural (bahasa Indonesia) | Berjalan | Bisa disela dan memakai alat. Pada contoh ini memakai Gemini; pada proyek pelanggan layanan AI bisa dipilih. |
 | Membuka aplikasi dan berkas lewat suara | Berjalan | Daftar aplikasi dibaca dari komputer; terminal, skrip, dan berkas rahasia tidak dibuka. |
 | Alur kerja berantai dengan gerbang aturan | Berjalan | Kartu serah terima, rumus harga minimum, dan aturan verifikasi data tarif. |
 | Penjaga otomatis dan lampu kesehatan | Berjalan | Memulihkan server dan mikrofon yang mati atau macet; batas pemulihan agar tidak berputar-putar. |

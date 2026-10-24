@@ -4,21 +4,20 @@
 
 <br>
 
-**Sistem operasional bisnis yang berjalan nyaris autopilot.**
-Tim AI bekerja mengikuti SOP dan KPI, memantau data, dan menyiapkan keputusan,
+**Sistem autopilot kustom untuk operasional bisnis, dirancang mengikuti cara kerja Anda.**
+ARUS adalah contoh hasilnya: tim AI bekerja mengikuti SOP dan KPI, memantau data, dan menyiapkan keputusan,
 sementara manusia tetap memegang setiap keputusan penting.
 
 <br>
 
-![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-3366ff?style=for-the-badge&logo=google&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini%20AI-0b1b3f?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-3c873a?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-111111?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Kustom](https://img.shields.io/badge/Dibuat%20sesuai-bisnis%20Anda-3366ff?style=for-the-badge)
+![Model AI](https://img.shields.io/badge/Model%20AI-pilihan%20Anda-0b1b3f?style=for-the-badge)
+![Manusia](https://img.shields.io/badge/Keputusan-tetap%20di%20manusia-3c873a?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-5cdcff?style=for-the-badge)
 
 <br>
 
-[**Kenapa ARUS**](#kenapa-arus) · [**Cara kerja**](#cara-kerja-autopilot) · [**Fitur**](#fitur) · [**Keamanan**](#keamanan-dan-kontrol) · [**Demo**](#demo) · [**Kerja sama**](#kerja-sama)
+[**Kenapa ARUS**](#kenapa-arus) · [**Cara kerja**](#cara-kerja-autopilot) · [**Fitur**](#fitur) · [**Keamanan**](#keamanan-dan-kontrol) · [**Demo**](#demo) · [**Cara kerja sama**](#cara-kerja-sama)
 
 </div>
 
@@ -29,13 +28,32 @@ sementara manusia tetap memegang setiap keputusan penting.
 Banyak bisnis kecil dan menengah masih dijalankan dari chat, spreadsheet, dan ingatan beberapa orang kunci.
 Pertanyaan yang sama terus berulang, pekerjaan rutin memakan waktu, dan bisnis tersendat saat orang yang tahu sedang tidak ada.
 
-**ARUS** adalah kerangka sistem operasional yang membuat pekerjaan rutin itu berjalan sendiri:
+Setiap bisnis punya cara kerja yang berbeda, jadi satu sistem jadi tidak akan pas untuk semua.
+Karena itu pendekatannya: **sistemnya dirancang mengikuti bisnis Anda, bukan Anda yang mengikuti sistem.**
+
+**ARUS** adalah contoh nyata pendekatan itu, sebuah sistem operasional yang membuat pekerjaan rutin berjalan sendiri.
+Pola yang sama bisa disesuaikan dengan proses bisnis lain:
 
 - **Tim AI dengan peran jelas.** Tiap "karyawan AI" punya tugas rutin, SOP, dan KPI tertulis, bukan sekadar chatbot.
 - **Autopilot dengan rem.** AI menyiapkan dan menjalankan yang aman; hal sensitif selalu menunggu persetujuan manusia.
 - **Bisa diajak bicara.** Tanya data dengan bahasa sehari-hari, lewat ketikan maupun suara.
 - **Menjaga dirinya sendiri.** Bagian yang mati atau macet dipulihkan otomatis, dan semua tindakan tercatat.
-- **Dibuat sesuai bisnis Anda.** Modul, peran, SOP, dan aturan disesuaikan dengan cara kerja bisnis masing-masing.
+- **Dibuat sesuai bisnis Anda.** Peran, SOP, aturan, dan sumber data disesuaikan dengan proses masing-masing pelanggan.
+
+## Semua bisa disesuaikan
+
+Yang Anda lihat di sini hanya contoh. Pada proyek pelanggan, hampir semua bagian dipilih mengikuti kebutuhan dan kenyamanan Anda:
+
+| Bagian | Contoh pilihan |
+|---|---|
+| **Layanan AI** | Claude, Gemini, Grok, model lain, atau model yang dijalankan di komputer sendiri. Bebas, tidak terikat satu penyedia. |
+| **Tempat data** | Google Sheets, Excel, database, atau sistem yang sudah Anda pakai |
+| **Cara berinteraksi** | Ketik, suara, atau dashboard, sesuai yang paling nyaman bagi tim Anda |
+| **Peran dan SOP** | Disusun dari proses kerja Anda sendiri, bukan template |
+| **Batas izin** | Anda yang menentukan apa yang boleh jalan sendiri dan apa yang wajib disetujui |
+| **Tempat berjalan** | Di akun dan perangkat Anda, bukan di tempat kami |
+
+Kelayakan tiap pilihan dibahas di awal, sebelum pekerjaan dimulai.
 
 ## Cara kerja autopilot
 
@@ -67,7 +85,7 @@ sehingga departemen bekerja berantai dan bukan sendiri-sendiri.
 
 ## Keamanan dan kontrol
 
-- **Data bisnis tetap di akun Anda.** Data disimpan di Google Sheets dan Drive milik Anda, dan alat berjalan di laptop Anda. Perlu diketahui terbuka: pertanyaan yang Anda ajukan ke asisten AI diproses oleh layanan Gemini milik Google, jadi ikuti kebijakan privasi Google untuk data yang Anda kirim lewat percakapan.
+- **Data bisnis tetap di akun Anda.** Pada contoh ARUS, data disimpan di Google Sheets dan Drive milik Anda, dan alat berjalan di laptop Anda. Perlu diketahui terbuka: apa pun layanan AI yang dipilih, pertanyaan yang dikirim ke asisten diproses oleh penyedia layanan itu (pada contoh ARUS, Gemini milik Google), jadi kebijakan privasi penyedia tersebut berlaku. Karena itu pemilihan layanan AI dibahas bersama di awal.
 - **Rahasia tidak pernah ikut ke repositori.** Kunci API, sidik suara, dan data bisnis disimpan terpisah dari kode.
 - **AI tidak membuka kata sandi.** Halaman kata sandi dan akun ditolak. Akses ke sistem pihak ketiga (misalnya akun toko online) dirancang lewat jalur resmi dengan izin baca saja, bukan dengan menyimpan kata sandi.
 - **Tindakan berisiko selalu ada gerbangnya.** Menghapus, mengubah data, mengirim, dan mengeluarkan uang menunggu persetujuan.
@@ -87,21 +105,29 @@ Rincian: [docs/keamanan-dan-kontrol.md](docs/keamanan-dan-kontrol.md).
 
 Skenario penggunaan (fiktif, untuk gambaran): [docs/skenario-penggunaan.md](docs/skenario-penggunaan.md).
 
-## Teknologi
+## Teknologi pada contoh ARUS
 
 Google Apps Script · Google Sheets dan Drive · Gemini API (function calling dan Live API) · Node.js · Python ·
 Three.js · Vosk (pengenalan kata panggil offline)
+
+Ini pilihan untuk contoh ini saja. Proyek pelanggan memakai teknologi dan layanan AI yang paling cocok bagi mereka.
 
 ## Contoh kode
 
 Folder [`examples/`](examples/) berisi potongan kode generik: penulisan data aman dengan kunci,
 dan gerbang kualitas sebelum rilis. Tidak menyalin kode dari sistem mana pun.
 
-## Kerja sama
+## Cara kerja sama
 
-Tertarik dibuatkan sistem autopilot seperti ini untuk bisnis Anda, atau ingin berdiskusi?
-Buka [Issue](https://github.com/RezaJakarta/ops-suite-showcase/issues) atau hubungi lewat
-[profil GitHub](https://github.com/RezaJakarta).
+Tertarik dibuatkan sistem autopilot untuk proses bisnis Anda? Alurnya sederhana:
+
+1. **Cerita proses Anda.** Apa yang berulang, memakan waktu, atau sering terlewat. Belum perlu istilah teknis.
+2. **Rancang bersama.** Kami menentukan peran, SOP, KPI, dan batas izin: apa yang boleh jalan sendiri dan apa yang wajib Anda setujui.
+3. **Uji dengan data contoh.** Anda melihat hasilnya lebih dulu, tanpa risiko ke data asli.
+4. **Pasang dan sesuaikan.** Dipasang di akun dan alat Anda sendiri, lalu disempurnakan dari pemakaian nyata.
+
+Mulai dengan diskusi singkat tanpa kewajiban. Buka [Issue](https://github.com/RezaJakarta/ops-suite-showcase/issues) atau hubungi lewat
+[profil GitHub](https://github.com/RezaJakarta). Lingkup, biaya, dan waktu dibahas per kasus dan disepakati tertulis sebelum mulai.
 
 ---
 
@@ -117,10 +143,12 @@ MIT. Lihat [LICENSE](LICENSE). Contoh kode boleh dipakai ulang dengan mencantumk
 <details>
 <summary>English summary</summary>
 
-**ARUS** is a framework for building near-autopilot business operations: AI "employees" with written SOPs and KPIs
+Every business works differently, so I build custom autopilot systems around your own processes. **ARUS** is the working example:
+a near-autopilot operations system where AI "employees" with written SOPs and KPIs
 monitor your data, prepare decisions, and execute safe actions, while a three-tier permission model (green, yellow, red)
 keeps humans in charge of anything sensitive. It includes a 3D virtual office, a natural Indonesian voice assistant,
-chained workflows with approval gates, self-healing supervision, and a full audit trail. Built on Google Workspace,
-Gemini, and Node.js. Open an issue to discuss a custom build for your business.
+chained workflows with approval gates, self-healing supervision, and a full audit trail. The example uses Google Workspace,
+Gemini, and Node.js, but custom builds are provider-agnostic: Claude, Gemini, Grok, other or local models, and your own
+data stores. Open an issue to discuss a custom build for your business.
 
 </details>
