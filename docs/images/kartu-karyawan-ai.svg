@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" role="img" aria-labelledby="t d">
+  <title id="t">Kartu karyawan AI (contoh)</title>
+  <desc id="d">Ilustrasi kartu karyawan AI berisi peran, tugas rutin, langkah SOP, dan KPI bersasaran. Semua isi adalah contoh fiktif.</desc>
+  <defs>
+    <linearGradient id="kepala" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#10244f"/><stop offset="1" stop-color="#2447c9"/></linearGradient>
+    <radialGradient id="avatar" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#5cdcff"/><stop offset="1" stop-color="#7b5cf0"/></radialGradient>
+  </defs>
+  <rect width="1100" height="560" rx="20" fill="#f4f7ff" stroke="#c9d6f5"/>
+  <g font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif">
+    <rect x="24" y="24" width="1052" height="96" rx="16" fill="url(#kepala)"/>
+    <circle cx="82" cy="72" r="34" fill="url(#avatar)"/>
+    <text x="82" y="82" text-anchor="middle" font-size="30" font-weight="800" fill="#10244f">D</text>
+    <text x="136" y="64" font-size="26" font-weight="800" fill="#ffffff">Dina · Analis Persediaan</text>
+    <text x="136" y="92" font-size="16" fill="#cfe3ff">Departemen Persediaan · karyawan AI contoh</text>
+    <rect x="800" y="50" width="250" height="44" rx="22" fill="#22c55e" fill-opacity="0.2" stroke="#22c55e"/>
+    <circle cx="826" cy="72" r="7" fill="#22c55e"/>
+    <text x="842" y="78" font-size="17" font-weight="700" fill="#e6ffef">terjadwal · Senin 08.30</text>
+
+    <text x="40" y="160" font-size="14" font-weight="800" letter-spacing="1.5" fill="#3366ff">PERAN</text>
+    <text x="40" y="186" font-size="17" fill="#10244f">Menjaga persediaan toko tetap sehat: mendeteksi produk menipis dan melambat, lalu melaporkannya.</text>
+
+    <text x="40" y="226" font-size="14" font-weight="800" letter-spacing="1.5" fill="#3366ff">TUGAS RUTIN</text>
+    <g font-size="16" fill="#10244f">
+      <text x="40" y="254">• Memeriksa produk di bawah stok minimum <tspan fill="#5b6b8f">— Harian</tspan></text>
+      <text x="40" y="280">• Menandai produk yang bergerak lambat <tspan fill="#5b6b8f">— Mingguan</tspan></text>
+      <text x="40" y="306">• Menyusun laporan satu halaman <tspan fill="#5b6b8f">— Mingguan (Senin 08.30)</tspan></text>
+    </g>
+
+    <text x="570" y="226" font-size="14" font-weight="800" letter-spacing="1.5" fill="#3366ff">SOP</text>
+    <g font-size="16" fill="#10244f">
+      <text x="570" y="254">1. Baca data persediaan (hanya-baca).</text>
+      <text x="570" y="280">2. Bandingkan dengan minggu lalu.</text>
+      <text x="570" y="306">3. Klasifikasikan: baru, berulang, membesar.</text>
+      <text x="570" y="332">4. Terbitkan laporan; data tidak pernah diubah.</text>
+    </g>
+
+    <text x="40" y="372" font-size="14" font-weight="800" letter-spacing="1.5" fill="#3366ff">KPI (SASARAN)</text>
+    <rect x="40" y="386" width="1020" height="34" fill="#e3ebff"/>
+    <g font-size="14" font-weight="700" fill="#44557a">
+      <text x="56" y="408">Indikator</text><text x="610" y="408">Sasaran</text><text x="780" y="408">Frekuensi</text><text x="930" y="408">Hasil</text>
+    </g>
+    <g font-size="16" fill="#10244f">
+      <text x="56" y="446">Laporan terbit tepat waktu</text><text x="610" y="446">100%</text><text x="780" y="446">Mingguan</text><text x="930" y="446" fill="#b45309" font-weight="700">belum diukur</text>
+      <line x1="40" y1="458" x2="1060" y2="458" stroke="#c9d6f5"/>
+      <text x="56" y="486">Produk kritis terdeteksi sebelum habis</text><text x="610" y="486">100%</text><text x="780" y="486">Bulanan</text><text x="930" y="486" fill="#b45309" font-weight="700">belum diukur</text>
+      <line x1="40" y1="498" x2="1060" y2="498" stroke="#c9d6f5"/>
+      <text x="56" y="526">Ketepatan klasifikasi</text><text x="610" y="526">≥ 95%</text><text x="780" y="526">Bulanan</text><text x="930" y="526" fill="#b45309" font-weight="700">belum diukur</text>
+    </g>
+  </g>
+</svg>

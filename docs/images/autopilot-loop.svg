@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500" role="img" aria-labelledby="t d">
+  <title id="t">Alur autopilot ARUS</title>
+  <desc id="d">Pantau, analisis, rekomendasi, gerbang aturan, persetujuan manusia, eksekusi, lalu umpan balik yang kembali ke pemantauan.</desc>
+  <defs>
+    <marker id="panah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#5b6b8f"/>
+    </marker>
+    <linearGradient id="latar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7ff"/><stop offset="1" stop-color="#e8eeff"/></linearGradient>
+  </defs>
+  <rect width="1100" height="500" rx="20" fill="url(#latar)" stroke="#c9d6f5"/>
+  <g font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif">
+    <text x="550" y="42" text-anchor="middle" font-size="22" font-weight="800" fill="#10244f">Autopilot dengan rem: setiap putaran punya gerbang</text>
+
+    <!-- baris atas -->
+    <g>
+      <rect x="40" y="80" width="215" height="92" rx="14" fill="#ffffff" stroke="#3366ff" stroke-width="2"/>
+      <circle cx="68" cy="108" r="15" fill="#3366ff"/><text x="68" y="114" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">1</text>
+      <text x="92" y="114" font-size="19" font-weight="800" fill="#10244f">Pantau</text>
+      <text x="58" y="142" font-size="14" fill="#44557a">Karyawan AI membaca data</text>
+      <text x="58" y="161" font-size="14" fill="#44557a">secara berkala (hanya-baca)</text>
+
+      <rect x="305" y="80" width="215" height="92" rx="14" fill="#ffffff" stroke="#3366ff" stroke-width="2"/>
+      <circle cx="333" cy="108" r="15" fill="#3366ff"/><text x="333" y="114" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">2</text>
+      <text x="357" y="114" font-size="19" font-weight="800" fill="#10244f">Analisis</text>
+      <text x="323" y="142" font-size="14" fill="#44557a">Membandingkan dengan masa</text>
+      <text x="323" y="161" font-size="14" fill="#44557a">lalu dan mencari penyebab</text>
+
+      <rect x="570" y="80" width="215" height="92" rx="14" fill="#ffffff" stroke="#3366ff" stroke-width="2"/>
+      <circle cx="598" cy="108" r="15" fill="#3366ff"/><text x="598" y="114" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">3</text>
+      <text x="622" y="114" font-size="19" font-weight="800" fill="#10244f">Rekomendasi</text>
+      <text x="588" y="142" font-size="14" fill="#44557a">Usulan yang jelas, lengkap</text>
+      <text x="588" y="161" font-size="14" fill="#44557a">dengan alasan dan bukti</text>
+
+      <rect x="835" y="80" width="225" height="92" rx="14" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+      <circle cx="863" cy="108" r="15" fill="#8b5cf6"/><text x="863" y="114" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">4</text>
+      <text x="887" y="114" font-size="19" font-weight="800" fill="#10244f">Gerbang aturan</text>
+      <text x="853" y="142" font-size="14" fill="#44557a">Batas margin, anggaran, dan</text>
+      <text x="853" y="161" font-size="14" fill="#44557a">data acuan yang masih valid</text>
+    </g>
+    <g stroke="#5b6b8f" stroke-width="2.5" fill="none" marker-end="url(#panah)">
+      <path d="M255 126H300"/><path d="M520 126H565"/><path d="M785 126H830"/>
+      <path d="M947 172V232Q947 252 927 252H860"/>
+    </g>
+
+    <!-- baris bawah -->
+    <g>
+      <rect x="600" y="206" width="260" height="92" rx="14" fill="#fff5f5" stroke="#ef4444" stroke-width="2"/>
+      <circle cx="626" cy="234" r="15" fill="#ef4444"/><text x="626" y="240" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">5</text>
+      <text x="650" y="240" font-size="18" font-weight="800" fill="#10244f">Persetujuan manusia</text>
+      <text x="618" y="268" font-size="14" fill="#44557a">Tindakan berisiko berhenti di</text>
+      <text x="618" y="287" font-size="14" fill="#44557a">sini sampai pemilik menyetujui</text>
+
+      <rect x="320" y="206" width="215" height="92" rx="14" fill="#ffffff" stroke="#3366ff" stroke-width="2"/>
+      <circle cx="348" cy="234" r="15" fill="#3366ff"/><text x="348" y="240" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">6</text>
+      <text x="372" y="240" font-size="19" font-weight="800" fill="#10244f">Eksekusi</text>
+      <text x="338" y="268" font-size="14" fill="#44557a">Menjalankan yang disetujui</text>
+      <text x="338" y="287" font-size="14" fill="#44557a">dan mencatat jejak auditnya</text>
+
+      <rect x="40" y="206" width="215" height="92" rx="14" fill="#ffffff" stroke="#3366ff" stroke-width="2"/>
+      <circle cx="68" cy="234" r="15" fill="#3366ff"/><text x="68" y="240" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">7</text>
+      <text x="92" y="240" font-size="19" font-weight="800" fill="#10244f">Umpan balik</text>
+      <text x="58" y="268" font-size="14" fill="#44557a">Hasil kembali jadi bahan</text>
+      <text x="58" y="287" font-size="14" fill="#44557a">pembelajaran putaran berikut</text>
+    </g>
+    <g stroke="#5b6b8f" stroke-width="2.5" fill="none" marker-end="url(#panah)">
+      <path d="M600 252H540"/><path d="M320 252H260"/>
+      <path d="M147 206V178" stroke-dasharray="6 5"/>
+    </g>
+    <text x="160" y="196" font-size="12" fill="#5b6b8f">kembali ke langkah 1</text>
+
+    <!-- legenda izin: tiga kolom -->
+    <g>
+      <rect x="40" y="322" width="1020" height="150" rx="14" fill="#ffffff" stroke="#c9d6f5"/>
+      <text x="62" y="352" font-size="16" font-weight="800" fill="#10244f">Setiap tindakan punya tingkat izin</text>
+
+      <circle cx="72" cy="388" r="9" fill="#22c55e"/>
+      <text x="92" y="393" font-size="16" font-weight="800" fill="#10244f">Hijau: boleh langsung</text>
+      <text x="62" y="422" font-size="14" fill="#44557a">Membaca data, menampilkan</text>
+      <text x="62" y="442" font-size="14" fill="#44557a">ringkasan, membuka halaman</text>
+
+      <circle cx="402" cy="388" r="9" fill="#f59e0b"/>
+      <text x="422" y="393" font-size="16" font-weight="800" fill="#10244f">Kuning: disebut dulu</text>
+      <text x="392" y="422" font-size="14" fill="#44557a">Mencatat tugas, menutup aplikasi</text>
+      <text x="392" y="442" font-size="14" fill="#44557a">atas permintaan, lalu dijalankan</text>
+
+      <circle cx="732" cy="388" r="9" fill="#ef4444"/>
+      <text x="752" y="393" font-size="16" font-weight="800" fill="#10244f">Merah: wajib persetujuan</text>
+      <text x="722" y="422" font-size="14" fill="#44557a">Menghapus, mengubah data,</text>
+      <text x="722" y="442" font-size="14" fill="#44557a">mengirim, mengeluarkan uang</text>
+    </g>
+  </g>
+</svg>
