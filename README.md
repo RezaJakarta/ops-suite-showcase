@@ -55,6 +55,24 @@ Yang Anda lihat di sini hanya contoh. Pada proyek pelanggan, hampir semua bagian
 
 Kelayakan tiap pilihan dibahas di awal, sebelum pekerjaan dimulai.
 
+## Senin pagi, tanpa disuruh siapa pun
+
+Beginilah satu pagi di sistem contoh ini — semuanya berjalan sendiri sebelum pemiliknya menyentuh apa pun:
+
+| Jam | Yang terjadi |
+|---|---|
+| **06.30** | Peran IT mematroli kesehatan seluruh kode sistem. Ada yang retak? Ketahuan sebelum dipakai tim. |
+| **07.30** | Orkestrator membaca sasaran bisnis, menghitung jaraknya ke kenyataan, lalu membagi tugas ke departemen. |
+| **08.00–09.00** | Auditor memeriksa log error, selisih stok, dan janji barang dari pemasok yang lewat tenggat. |
+| **09.00–09.30** | Analis penjualan membedah toko yang turun; draf pesan follow-up pelanggan yang sudah disetujui terkirim sendiri ke tim sales. |
+| **10.00–11.00** | Perancang strategi menyusun rencana per temuan; gerbang margin menghitung untung-ruginya memakai angka potongan **yang diverifikasi dari laporan keuangan resmi**. |
+| **13.00** | Draf eksekusi (judul, deskripsi, kata kunci listing) sudah siap pasang. |
+| **14.00** | Pemilik menerima **satu lembar ringkasan**. Yang menunggu keputusannya ada di baris paling atas. |
+
+Lalu bagian pemilik: membaca dua menit, menekan **Setuju** — dan sistem sendiri yang mengirim
+tugasnya, lengkap dengan draf siap pakai, ke email penanggung jawab manusianya. Pemilik tidak
+pernah menjadi kurir, dan tidak ada satu pun perubahan harga atau kiriman uang yang jalan tanpa dia.
+
 ## Cara kerja autopilot
 
 <img src="docs/images/autopilot-loop.svg" alt="Alur autopilot: pantau, analisis, rekomendasi, gerbang aturan, persetujuan manusia, eksekusi, umpan balik" width="100%">
@@ -103,9 +121,12 @@ Rincian: [docs/keamanan-dan-kontrol.md](docs/keamanan-dan-kontrol.md).
 
 ## Demo
 
-<img src="docs/images/kantor-virtual-ai.png" alt="Kantor virtual AI: ruang departemen berpenyekat kaca, karyawan AI bernama, dan Midun sebagai manajer" width="100%">
+<img src="docs/images/kantor-virtual-ai.png" alt="Kantor virtual AI: 12 ruang departemen, manajer AI di lantai 2, karyawan AI bernama yang berjalan dan beraktivitas" width="100%">
 
-<sub>Tangkapan layar kantor virtual dengan **data contoh** (karyawan dan tugas fiktif). Putar, zoom, dan geser dengan mouse.</sub>
+<sub>Tangkapan layar langsung dari kantor virtual (dengan **data contoh** — karyawan dan tugas fiktif).
+Ini bukan gambar mati: tiap karakter mengikuti keadaan nyatanya — yang ditugaskan mengetik di mejanya,
+yang menunggu jadwal membawa jam, yang siaga sesekali berjalan ke dapur atau ruang kopi. Manajer AI
+duduk di ruang kaca lantai dua. Putar, zoom, dan geser dengan mouse; klik ruangan untuk detail SOP dan KPI.</sub>
 
 <img src="docs/images/kartu-karyawan-ai.svg" alt="Kartu karyawan AI: peran, tugas rutin, SOP, dan KPI" width="100%">
 
