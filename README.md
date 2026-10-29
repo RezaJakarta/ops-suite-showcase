@@ -10,10 +10,10 @@ sementara manusia tetap memegang setiap keputusan penting.
 
 <br>
 
-![Kustom](https://img.shields.io/badge/Dibuat%20sesuai-bisnis%20Anda-3366ff?style=for-the-badge)
-![Model AI](https://img.shields.io/badge/Model%20AI-pilihan%20Anda-0b1b3f?style=for-the-badge)
-![Manusia](https://img.shields.io/badge/Keputusan-tetap%20di%20manusia-3c873a?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-5cdcff?style=for-the-badge)
+[![Kustom](https://img.shields.io/badge/Dibuat%20sesuai-bisnis%20Anda-3366ff?style=for-the-badge)](#semua-bisa-disesuaikan)
+[![Model AI](https://img.shields.io/badge/Model%20AI-pilihan%20Anda-0b1b3f?style=for-the-badge)](#semua-bisa-disesuaikan)
+[![Manusia](https://img.shields.io/badge/Keputusan-tetap%20di%20manusia-3c873a?style=for-the-badge)](#keamanan-dan-kontrol)
+[![License](https://img.shields.io/badge/License-MIT-5cdcff?style=for-the-badge)](LICENSE)
 
 <br>
 
