@@ -128,9 +128,11 @@ Ini bukan gambar mati: tiap karakter mengikuti keadaan nyatanya — yang ditugas
 yang menunggu jadwal membawa jam, yang siaga sesekali berjalan ke dapur atau ruang kopi. Manajer AI
 duduk di ruang kaca lantai dua. Putar, zoom, dan geser dengan mouse; klik ruangan untuk detail SOP dan KPI.</sub>
 
-<img src="docs/images/kartu-karyawan-ai.svg" alt="Kartu karyawan AI: peran, tugas rutin, SOP, dan KPI" width="100%">
+<img src="docs/images/kartu-karyawan-ai.svg" alt="Tiga kartu karyawan AI dari departemen berbeda: penjaga margin, analis toko, dan patroli kode, dengan peran, jadwal, dan KPI" width="100%">
 
-<sub>Ilustrasi kartu karyawan AI dengan isi contoh.</sub>
+<sub>Tiga dari belasan karyawan AI, masing-masing dengan peran, jadwal, dan KPI yang diukur —
+penjaga margin yang menghitung untung-rugi sebelum harga tayang, analis yang membedah toko
+melambat, dan patroli kode yang bangun paling pagi. Semua angka di kartu adalah contoh fiktif.</sub>
 
 Skenario penggunaan (fiktif, untuk gambaran): [docs/skenario-penggunaan.md](docs/skenario-penggunaan.md).
 
