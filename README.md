@@ -68,6 +68,11 @@ Kelayakan tiap pilihan dibahas di awal, sebelum pekerjaan dimulai.
 Antar-peran, pekerjaan diserahkan lewat **kartu serah terima** yang boleh ditolak bila kurang lengkap,
 sehingga departemen bekerja berantai dan bukan sendiri-sendiri.
 
+Pada contoh ARUS, rantai ini benar-benar **berjalan sendiri setiap Senin pagi**: belasan peran bekerja
+bergiliran dari subuh (patroli kesehatan kode) sampai siang (strategi, gerbang margin, draf eksekusi),
+dipimpin satu peran orkestrator yang membaca sasaran bisnis dan membagi tugas. Jam dua siang pemilik
+menerima **satu lembar ringkasan**: hal yang menunggu keputusannya ada di paling atas.
+
 ## Fitur
 
 | | |
@@ -77,6 +82,9 @@ sehingga departemen bekerja berantai dan bukan sendiri-sendiri.
 | **Asisten suara yang natural** | Percakapan dua arah dengan bahasa Indonesia sehari-hari, bisa disela, dan bisa memakai alat (membaca data, membuka aplikasi dan berkas, mencatat tugas). |
 | **Izin tiga tingkat** | Hijau jalan langsung, kuning disebut dulu, merah wajib persetujuan pemilik. Alat yang tidak dikenal otomatis dianggap merah. |
 | **Alur kerja berantai** | Rantai tahap dengan kartu serah terima dan gerbang aturan, termasuk rumus penentu harga minimum agar penjualan tidak rugi. |
+| **Rantai mingguan yang berjalan sendiri** | Belasan peran AI bekerja bergiliran tiap Senin pagi tanpa disuruh — dari patroli kode, audit log, audit stok, analisa penjualan, strategi, cek margin, sampai draf eksekusi — ditutup satu lembar ringkasan untuk pemilik. |
+| **Setuju = aksi nyata** | Satu klik "Setuju" dari pemilik otomatis mengirim email tugas ke penanggung jawab manusia, lengkap dengan draf siap pakai. Draf follow-up pelanggan juga terkirim sendiri ke tim sales. Pemilik tidak pernah jadi kurir. |
+| **Rekonsiliasi dari laporan resmi** | File laporan keuangan resmi marketplace tinggal diseret masuk (boleh beberapa sekaligus): biaya dan laba tercatat dikoreksi otomatis per pesanan memakai angka resmi, aman diulang, dan selisihnya dilaporkan. Tarif gerbang margin diverifikasi dari laporan yang sama — bukan tebakan. |
 | **Penjaga otomatis** | Memantau server dan mikrofon, memulihkan yang mati atau macet, dengan batas supaya tidak berputar-putar dan lampu kesehatan yang jujur. |
 | **Jejak audit** | Setiap pemakaian alat tercatat dengan tingkat izinnya, tanpa menyimpan isi percakapan sensitif. |
 | **Tampilan jujur** | Hasil alat hanya menyatakan "sudah terbuka" atau "sudah ditutup" bila keadaan layar benar-benar terkonfirmasi. |
@@ -145,8 +153,11 @@ MIT. Lihat [LICENSE](LICENSE). Contoh kode boleh dipakai ulang dengan mencantumk
 Every business works differently, so I build custom autopilot systems around your own processes. **ARUS** is the working example:
 a near-autopilot operations system where AI "employees" with written SOPs and KPIs
 monitor your data, prepare decisions, and execute safe actions, while a three-tier permission model (green, yellow, red)
-keeps humans in charge of anything sensitive. It includes a 3D virtual office, a natural Indonesian voice assistant,
-chained workflows with approval gates, self-healing supervision, and a full audit trail. The example uses Google Workspace,
+keeps humans in charge of anything sensitive. A dozen-plus AI roles run as a self-driving weekly chain — code patrol,
+audits, sales analysis, strategy, a margin gate verified against official financial reports, and execution drafts —
+ending in a one-page owner summary. One click of "Approve" emails the task, with a ready-to-use draft, straight to the
+responsible human. It also includes a 3D virtual office, a natural Indonesian voice assistant, official-report
+reconciliation that corrects recorded fees per order, self-healing supervision, and a full audit trail. The example uses Google Workspace,
 Gemini, and Node.js, but custom builds are provider-agnostic: Claude, Gemini, Grok, other or local models, and your own
 data stores. Open an issue to discuss a custom build for your business.
 
