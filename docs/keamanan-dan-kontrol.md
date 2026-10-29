@@ -1,6 +1,6 @@
 # Keamanan dan kontrol
 
-Autopilot hanya berguna bila pemiliknya tetap merasa memegang kendali. Prinsip ini yang dipakai di ARUS.
+Autopilot hanya berguna bila pemiliknya tetap merasa memegang kendali. Prinsip ini yang dipakai di Agentic AI.
 
 ## 1. Izin tiga tingkat
 

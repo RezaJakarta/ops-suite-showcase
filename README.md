@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="docs/images/banner.svg" alt="ARUS — AI Operations Autopilot" width="100%">
+<img src="docs/images/banner.svg" alt="Agentic AI — AI Operations Autopilot" width="100%">
 
 <br>
 
 **Sistem autopilot kustom untuk operasional bisnis, dirancang mengikuti cara kerja Anda.**
-ARUS adalah contoh hasilnya: tim AI bekerja mengikuti SOP dan KPI, memantau data, dan menyiapkan keputusan,
+Agentic AI adalah contoh hasilnya: tim AI bekerja mengikuti SOP dan KPI, memantau data, dan menyiapkan keputusan,
 sementara manusia tetap memegang setiap keputusan penting.
 
 <br>
@@ -17,13 +17,13 @@ sementara manusia tetap memegang setiap keputusan penting.
 
 <br>
 
-[**Kenapa ARUS**](#kenapa-arus) · [**Cara kerja**](#cara-kerja-autopilot) · [**Fitur**](#fitur) · [**Keamanan**](#keamanan-dan-kontrol) · [**Demo**](#demo) · [**Cara kerja sama**](#cara-kerja-sama)
+[**Kenapa Agentic AI**](#kenapa-agentic-ai) · [**Cara kerja**](#cara-kerja-autopilot) · [**Fitur**](#fitur) · [**Keamanan**](#keamanan-dan-kontrol) · [**Demo**](#demo) · [**Cara kerja sama**](#cara-kerja-sama)
 
 </div>
 
 <br>
 
-## Kenapa ARUS
+## Kenapa Agentic AI
 
 Banyak bisnis kecil dan menengah masih dijalankan dari chat, spreadsheet, dan ingatan beberapa orang kunci.
 Pertanyaan yang sama terus berulang, pekerjaan rutin memakan waktu, dan bisnis tersendat saat orang yang tahu sedang tidak ada.
@@ -31,7 +31,7 @@ Pertanyaan yang sama terus berulang, pekerjaan rutin memakan waktu, dan bisnis t
 Setiap bisnis punya cara kerja yang berbeda, jadi satu sistem jadi tidak akan pas untuk semua.
 Karena itu pendekatannya: **sistemnya dirancang mengikuti bisnis Anda, bukan Anda yang mengikuti sistem.**
 
-**ARUS** adalah contoh nyata pendekatan itu, sebuah sistem operasional yang membuat pekerjaan rutin berjalan sendiri.
+**Agentic AI** adalah contoh nyata pendekatan itu, sebuah sistem operasional yang membuat pekerjaan rutin berjalan sendiri.
 Pola yang sama bisa disesuaikan dengan proses bisnis lain:
 
 - **Tim AI dengan peran jelas.** Tiap "karyawan AI" punya tugas rutin, SOP, dan KPI tertulis, bukan sekadar chatbot.
@@ -86,7 +86,7 @@ pernah menjadi kurir, dan tidak ada satu pun perubahan harga atau kiriman uang y
 Antar-peran, pekerjaan diserahkan lewat **kartu serah terima** yang boleh ditolak bila kurang lengkap,
 sehingga departemen bekerja berantai dan bukan sendiri-sendiri.
 
-Pada contoh ARUS, rantai ini benar-benar **berjalan sendiri setiap Senin pagi**: belasan peran bekerja
+Pada contoh Agentic AI, rantai ini benar-benar **berjalan sendiri setiap Senin pagi**: belasan peran bekerja
 bergiliran dari subuh (patroli kesehatan kode) sampai siang (strategi, gerbang margin, draf eksekusi),
 dipimpin satu peran orkestrator yang membaca sasaran bisnis dan membagi tugas. Jam dua siang pemilik
 menerima **satu lembar ringkasan**: hal yang menunggu keputusannya ada di paling atas.
@@ -111,7 +111,7 @@ menerima **satu lembar ringkasan**: hal yang menunggu keputusannya ada di paling
 
 ## Keamanan dan kontrol
 
-- **Data bisnis tetap di akun Anda.** Pada contoh ARUS, data disimpan di Google Sheets dan Drive milik Anda, dan alat berjalan di laptop Anda. Perlu diketahui terbuka: apa pun layanan AI yang dipilih, pertanyaan yang dikirim ke asisten diproses oleh penyedia layanan itu (pada contoh ARUS, Gemini milik Google), jadi kebijakan privasi penyedia tersebut berlaku. Karena itu pemilihan layanan AI dibahas bersama di awal.
+- **Data bisnis tetap di akun Anda.** Pada contoh Agentic AI, data disimpan di Google Sheets dan Drive milik Anda, dan alat berjalan di laptop Anda. Perlu diketahui terbuka: apa pun layanan AI yang dipilih, pertanyaan yang dikirim ke asisten diproses oleh penyedia layanan itu (pada contoh Agentic AI, Gemini milik Google), jadi kebijakan privasi penyedia tersebut berlaku. Karena itu pemilihan layanan AI dibahas bersama di awal.
 - **Rahasia tidak pernah ikut ke repositori.** Kunci API, sidik suara, dan data bisnis disimpan terpisah dari kode.
 - **AI tidak membuka kata sandi.** Halaman kata sandi dan akun ditolak. Akses ke sistem pihak ketiga (misalnya akun toko online) dirancang lewat jalur resmi dengan izin baca saja, bukan dengan menyimpan kata sandi.
 - **Tindakan berisiko selalu ada gerbangnya.** Menghapus, mengubah data, mengirim, dan mengeluarkan uang menunggu persetujuan.
@@ -136,7 +136,7 @@ melambat, dan patroli kode yang bangun paling pagi. Semua angka di kartu adalah 
 
 Skenario penggunaan (fiktif, untuk gambaran): [docs/skenario-penggunaan.md](docs/skenario-penggunaan.md).
 
-## Teknologi pada contoh ARUS
+## Teknologi pada contoh Agentic AI
 
 Google Apps Script · Google Sheets dan Drive · Gemini API (function calling dan Live API) · Node.js · Python ·
 Three.js · Vosk (pengenalan kata panggil offline)
@@ -173,7 +173,7 @@ MIT. Lihat [LICENSE](LICENSE). Contoh kode boleh dipakai ulang dengan mencantumk
 <details>
 <summary>English summary</summary>
 
-Every business works differently, so I build custom autopilot systems around your own processes. **ARUS** is the working example:
+Every business works differently, so I build custom autopilot systems around your own processes. **Agentic AI** is the working example:
 a near-autopilot operations system where AI "employees" with written SOPs and KPIs
 monitor your data, prepare decisions, and execute safe actions, while a three-tier permission model (green, yellow, red)
 keeps humans in charge of anything sensitive. A dozen-plus AI roles run as a self-driving weekly chain — code patrol,
