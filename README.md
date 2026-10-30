@@ -17,7 +17,7 @@ sementara manusia tetap memegang setiap keputusan penting.
 
 <br>
 
-[**Kenapa Agentic AI**](#kenapa-agentic-ai) · [**Cara kerja**](#cara-kerja-autopilot) · [**Fitur**](#fitur) · [**Keamanan**](#keamanan-dan-kontrol) · [**Demo**](#demo) · [**Cara kerja sama**](#cara-kerja-sama)
+[**Kenapa Agentic AI**](#kenapa-agentic-ai) · [**Cara kerja**](#cara-kerja-autopilot) · [**Sorotan**](#sorotan-dari-draf-mentah-ke-listing-siap-tayang) · [**Fitur**](#fitur) · [**Keamanan**](#keamanan-dan-kontrol) · [**Demo**](#demo) · [**Cara kerja sama**](#cara-kerja-sama)
 
 </div>
 
@@ -66,12 +66,67 @@ Beginilah satu pagi di sistem contoh ini — semuanya berjalan sendiri sebelum p
 | **08.00–09.00** | Auditor memeriksa log error, selisih stok, dan janji barang dari pemasok yang lewat tenggat. |
 | **09.00–09.30** | Analis penjualan membedah toko yang turun; draf pesan follow-up pelanggan yang sudah disetujui terkirim sendiri ke tim sales. |
 | **10.00–11.00** | Perancang strategi menyusun rencana per temuan; gerbang margin menghitung untung-ruginya memakai angka potongan **yang diverifikasi dari laporan keuangan resmi**. |
-| **13.00** | Draf eksekusi (judul, deskripsi, kata kunci listing) sudah siap pasang. |
+| **13.00** | Draf listing siap pasang: spesifikasi dicek silang ke datasheet pabrikan, dipisah per blok (judul, deskripsi, kata kunci, atribut), lengkap dengan akun toko tujuannya. |
 | **14.00** | Pemilik menerima **satu lembar ringkasan**. Yang menunggu keputusannya ada di baris paling atas. |
 
 Lalu bagian pemilik: membaca dua menit, menekan **Setuju** — dan sistem sendiri yang mengirim
-tugasnya, lengkap dengan draf siap pakai, ke email penanggung jawab manusianya. Pemilik tidak
-pernah menjadi kurir, dan tidak ada satu pun perubahan harga atau kiriman uang yang jalan tanpa dia.
+tugasnya ke portal tugas departemen yang tepat. Gudang memotret produk lewat QR di HP, gambar utama
+listing tersusun otomatis, tim listing mereview lalu memasang. Pemilik tidak pernah menjadi kurir,
+dan tidak ada satu pun perubahan harga atau kiriman uang yang jalan tanpa dia.
+
+## Sorotan: dari draf mentah ke listing siap tayang
+
+Agen SEO marketplace menyiapkan listing untuk produk yang penjualannya turun atau stoknya menumpuk.
+Setelah standar kerjanya diperketat, hasilnya berubah dari catatan internal menjadi **bahan siap tempel**:
+
+<table>
+<tr><th>Sebelum</th><th>Sesudah</th></tr>
+<tr><td valign="top">
+
+```text
+DESKRIPSI (hanya dari data): Smart relay SR-24.
+BELUM ADA DI DATA: tegangan kerja, jumlah
+relay, rating kontak, sertifikasi ...
+Akses web ke katalog pabrikan gagal.
+```
+
+Judul, catatan, dan deskripsi bercampur jadi satu;
+spesifikasi kosong — tidak layak dipasang.
+
+</td><td valign="top">
+
+```text
+### JUDUL MARKETPLACE
+NOVA SR-24 Smart Relay 24V DC 2 Relay IP20
+### DESKRIPSI
+Spesifikasi:
+- Tegangan kerja: 24 V DC
+- Jumlah relay: 2 · Proteksi: IP20
+Tanya-jawab: Bisa dipasang di rel DIN? ...
+### CATATAN INTERNAL  (tidak ikut dipasang)
+Sumber: datasheet pabrikan + 2 distributor
+```
+
+Spesifikasi dicek silang ke beberapa sumber; tiap blok
+punya tombol salin sendiri; sumber disimpan terpisah.
+
+</td></tr>
+</table>
+
+Pengamannya otomatis: **gerbang layak tayang** menolak draf yang spesifikasinya belum terverifikasi
+(draf kembali ke agen, tidak sampai ke tim), dan aturan toko dijaga — misalnya akun *official* hanya
+boleh memasang brand resminya.
+
+### Gambar utama tersusun sendiri, satu template per akun toko
+
+<img src="docs/images/studio-gambar-utama.png" alt="Foto HP di atas kertas disusun otomatis ke template toko dan template official, lengkap dengan logo brand, watermark, kode, dan spesifikasi" width="100%">
+
+<sub>Data contoh (brand "NOVA" dan produk fiktif). Foto gudang diambil di atas kertas biasa — tanpa
+layanan hapus-latar berbayar, kertas ditelusuri dari pinggir foto lalu dilebur ke template, barang putih
+tetap utuh dengan bayangan lembut, dan watermark toko tetap melintas di atas produk. Logo brand dipasang
+dari pustaka, teks template *official* diisi dari draf. Tim listing mereview: **Cocok** → disimpan dan
+diunduh, atau **Minta revisi** dengan alasan dan lampiran (misalnya logo yang benar) — yang langsung
+memperbaiki pustaka untuk gambar berikutnya.</sub>
 
 ## Cara kerja autopilot
 
@@ -101,7 +156,13 @@ menerima **satu lembar ringkasan**: hal yang menunggu keputusannya ada di paling
 | **Izin tiga tingkat** | Hijau jalan langsung, kuning disebut dulu, merah wajib persetujuan pemilik. Alat yang tidak dikenal otomatis dianggap merah. |
 | **Alur kerja berantai** | Rantai tahap dengan kartu serah terima dan gerbang aturan, termasuk rumus penentu harga minimum agar penjualan tidak rugi. |
 | **Rantai mingguan yang berjalan sendiri** | Belasan peran AI bekerja bergiliran tiap Senin pagi tanpa disuruh — dari patroli kode, audit log, audit stok, analisa penjualan, strategi, cek margin, sampai draf eksekusi — ditutup satu lembar ringkasan untuk pemilik. |
-| **Setuju = aksi nyata** | Satu klik "Setuju" dari pemilik otomatis mengirim email tugas ke penanggung jawab manusia, lengkap dengan draf siap pakai. Draf follow-up pelanggan juga terkirim sendiri ke tim sales. Pemilik tidak pernah jadi kurir. |
+| **Setuju = aksi nyata** | Satu klik "Setuju" dari pemilik otomatis membuat tugas di portal departemen yang tepat dan mengirim email ringkas berlogo. Pemilik tidak pernah jadi kurir. |
+| **Portal tugas per departemen** | Sales, listing, dan gudang masing-masing punya halaman tugas: masuk sekali dengan akun kerja, departemen dikenali otomatis, pindah tab instan. Setiap tugas menjelaskan *kenapa*, membawa bahan siap pakai, dan berakhir dengan bukti: **selesai** atau **tidak bisa + alasan**. Tugas yang terabaikan 2 hari otomatis ditagih. |
+| **Tugas foto lewat QR** | Untuk tim yang tidak terbiasa komputer: portal di komputer menampilkan QR, HP siapa saja memindainya dan langsung masuk panduan foto satu-layar-satu-langkah — tanpa login, tanpa aplikasi. Foto yang sudah terkirim lewat WhatsApp cukup ditempel. |
+| **Studio gambar utama** | Foto produk disusun otomatis ke template tiap akun toko (logo brand, watermark, kode, spesifikasi), lalu direview tim: cocok, atau minta revisi dengan alasan dan lampiran. |
+| **Agen SEO yang meriset sendiri** | Spesifikasi produk dicek silang ke datasheet pabrikan dan distributor; draf dipisah per blok siap salin; akun toko tujuan dipetakan. Draf yang belum terverifikasi ditolak gerbang mutu. |
+| **Belajar dari penolakan** | Setiap "tidak bisa" dan "minta revisi" tercatat dengan alasan, dan wajib dibaca agen sebelum menyusun tugas berikutnya — pelanggan yang sudah tutup tidak disarankan dua kali, logo yang salah tidak terulang. |
+| **KPI tiga lapis untuk tiap agen** | Hasil (dampak bisnis), Mutu (kualitas barang jadi), dan Kecepatan (waktu siklus), masing-masing dengan rumus dan sumber data, diukur mingguan. Setiap agen juga wajib memverifikasi praktik kerjanya ke sumber terbaru — tidak ada cara kerja usang. |
 | **Rekonsiliasi dari laporan resmi** | File laporan keuangan resmi marketplace tinggal diseret masuk (boleh beberapa sekaligus): biaya dan laba tercatat dikoreksi otomatis per pesanan memakai angka resmi, aman diulang, dan selisihnya dilaporkan. Tarif gerbang margin diverifikasi dari laporan yang sama — bukan tebakan. |
 | **Penjaga otomatis** | Memantau server dan mikrofon, memulihkan yang mati atau macet, dengan batas supaya tidak berputar-putar dan lampu kesehatan yang jujur. |
 | **Jejak audit** | Setiap pemakaian alat tercatat dengan tingkat izinnya, tanpa menyimpan isi percakapan sensitif. |
@@ -133,6 +194,21 @@ duduk di ruang kaca lantai dua. Putar, zoom, dan geser dengan mouse; klik ruanga
 <sub>Tiga dari belasan karyawan AI, masing-masing dengan peran, jadwal, dan KPI yang diukur —
 penjaga margin yang menghitung untung-rugi sebelum harga tayang, analis yang membedah toko
 melambat, dan patroli kode yang bangun paling pagi. Semua angka di kartu adalah contoh fiktif.</sub>
+
+### Tim manusia ikut bekerja — dari HP, tanpa login
+
+<table>
+<tr>
+<td width="33%"><img src="docs/images/tugas-foto-qr.png" alt="Layar QR di komputer untuk dipindai kamera HP" width="100%"></td>
+<td width="33%"><img src="docs/images/tugas-foto-langkah.png" alt="Langkah foto di HP: gambar contoh, petunjuk singkat, contoh benar dan salah, tombol besar" width="100%"></td>
+<td width="33%"><img src="docs/images/tugas-foto-kirim.png" alt="Layar cek dan kirim dengan lima foto lengkap" width="100%"></td>
+</tr>
+<tr>
+<td><sub><b>1 · Pindai QR</b> dari portal di komputer — HP siapa saja, tautan hanya berlaku untuk tugas itu.</sub></td>
+<td><sub><b>2 · Satu langkah per layar</b> dengan gambar contoh dan contoh benar/salah.</sub></td>
+<td><sub><b>3 · Cek dan kirim</b> — tugas berikutnya (pemasangan listing) berjalan otomatis.</sub></td>
+</tr>
+</table>
 
 Skenario penggunaan (fiktif, untuk gambaran): [docs/skenario-penggunaan.md](docs/skenario-penggunaan.md).
 
@@ -178,8 +254,12 @@ a near-autopilot operations system where AI "employees" with written SOPs and KP
 monitor your data, prepare decisions, and execute safe actions, while a three-tier permission model (green, yellow, red)
 keeps humans in charge of anything sensitive. A dozen-plus AI roles run as a self-driving weekly chain — code patrol,
 audits, sales analysis, strategy, a margin gate verified against official financial reports, and execution drafts —
-ending in a one-page owner summary. One click of "Approve" emails the task, with a ready-to-use draft, straight to the
-responsible human. It also includes a 3D virtual office, a natural Indonesian voice assistant, official-report
+ending in a one-page owner summary. One click of "Approve" turns into a task on the right department's portal:
+the SEO agent's listings are cross-checked against manufacturer datasheets and blocked by a quality gate until
+publish-ready, warehouse staff photograph products from any phone by scanning a QR code (no login, step-by-step
+guide), and marketplace main images are composed automatically per store template, then reviewed (approve, or
+request a revision with a reason and attachment that the agents learn from). Every agent has three-layer KPIs
+(outcome, quality, speed). It also includes a 3D virtual office, a natural Indonesian voice assistant, official-report
 reconciliation that corrects recorded fees per order, self-healing supervision, and a full audit trail. The example uses Google Workspace,
 Gemini, and Node.js, but custom builds are provider-agnostic: Claude, Gemini, Grok, other or local models, and your own
 data stores. Open an issue to discuss a custom build for your business.
